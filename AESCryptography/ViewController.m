@@ -95,7 +95,7 @@
 }
 - (void)viewDidLoad
 {
-    [super viewDidLoad];
+    [super viewDidLoad];//git hub tested by params
    
     // Get Today Date
     [self getTodayDate];
@@ -397,7 +397,7 @@
             [self getDecryptedFilesList:@"test1"];
             [self getEncryptedFilesWithExtension:@"q_737552"];
 //            [self removeImage:@"q_737595"];
-            return nil; //final touch deleted files here ....
+            return NO; //final touch deleted files here ....
         }
         else
             nIndexPos++;
