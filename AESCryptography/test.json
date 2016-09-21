@@ -1,0 +1,21 @@
+{
+    "lookup": [{
+               "file": {
+               "@type": "html",
+               "mainfile": "q_737595\/74f6b5d2038fe7e04a7e249544fa288c.html",
+               "resfile": "q_737595\/resources\/864433\/*"
+               }
+               }, {
+               "file": {
+               "@type": "html",
+               "mainfile": "q_737595\/fce72d002a7867b2bd1c6b340b859d13.html",
+               "resfile": "q_737595\/resources\/864434\/*"
+               }
+               }, {
+               "file": {
+               "@type": "html",
+               "mainfile": "q_737595\/d1504845cecdd4b62244b7c3945a9880.html",
+               "resfile": "q_737595\/resources\/*"
+               }
+               }]
+}

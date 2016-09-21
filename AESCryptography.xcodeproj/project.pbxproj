@@ -1,0 +1,499 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		7705B4AF165E78EC0048AFE5 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7705B4AE165E78EC0048AFE5 /* UIKit.framework */; };
+		7705B4B1165E78EC0048AFE5 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7705B4B0165E78EC0048AFE5 /* Foundation.framework */; };
+		7705B4B3165E78EC0048AFE5 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7705B4B2165E78EC0048AFE5 /* CoreGraphics.framework */; };
+		7705B4B9165E78EC0048AFE5 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 7705B4B7165E78EC0048AFE5 /* InfoPlist.strings */; };
+		7705B4BB165E78EC0048AFE5 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 7705B4BA165E78EC0048AFE5 /* main.m */; };
+		7705B4BF165E78EC0048AFE5 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 7705B4BE165E78EC0048AFE5 /* AppDelegate.m */; };
+		7705B4C1165E78EC0048AFE5 /* Default.png in Resources */ = {isa = PBXBuildFile; fileRef = 7705B4C0165E78EC0048AFE5 /* Default.png */; };
+		7705B4C3165E78EC0048AFE5 /* Default@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 7705B4C2165E78EC0048AFE5 /* Default@2x.png */; };
+		7705B4C5165E78EC0048AFE5 /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 7705B4C4165E78EC0048AFE5 /* Default-568h@2x.png */; };
+		7705B4C8165E78EC0048AFE5 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 7705B4C7165E78EC0048AFE5 /* ViewController.m */; };
+		7705B4CB165E78EC0048AFE5 /* ViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 7705B4C9165E78EC0048AFE5 /* ViewController.xib */; };
+		F71AE8381D77FB2F00C9E670 /* resources1 in Resources */ = {isa = PBXBuildFile; fileRef = F71AE8371D77FB2F00C9E670 /* resources1 */; };
+		F749A34E1D70771B00165932 /* ZipArchive.mm in Sources */ = {isa = PBXBuildFile; fileRef = F749A34D1D70771B00165932 /* ZipArchive.mm */; };
+		F749A3591D70774400165932 /* ioapi.c in Sources */ = {isa = PBXBuildFile; fileRef = F749A3511D70774400165932 /* ioapi.c */; };
+		F749A35A1D70774400165932 /* mztools.c in Sources */ = {isa = PBXBuildFile; fileRef = F749A3531D70774400165932 /* mztools.c */; };
+		F749A35B1D70774400165932 /* unzip.c in Sources */ = {isa = PBXBuildFile; fileRef = F749A3551D70774400165932 /* unzip.c */; };
+		F749A35C1D70774400165932 /* zip.c in Sources */ = {isa = PBXBuildFile; fileRef = F749A3571D70774400165932 /* zip.c */; };
+		F749A3601D707A3D00165932 /* libz.1.1.3.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = F749A35F1D707A3C00165932 /* libz.1.1.3.tbd */; };
+		F749A3621D707A4800165932 /* libz.1.2.5.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = F749A3611D707A4800165932 /* libz.1.2.5.tbd */; };
+		F76C9C5A1D81816A004AB6A6 /* webController.m in Sources */ = {isa = PBXBuildFile; fileRef = F76C9C581D81816A004AB6A6 /* webController.m */; };
+		F76C9C5B1D81816A004AB6A6 /* webController.xib in Resources */ = {isa = PBXBuildFile; fileRef = F76C9C591D81816A004AB6A6 /* webController.xib */; };
+		F77A88591D783233009485BF /* q_737552 in Resources */ = {isa = PBXBuildFile; fileRef = F77A88581D783233009485BF /* q_737552 */; };
+		F77A885B1D7834D0009485BF /* test1.json in Resources */ = {isa = PBXBuildFile; fileRef = F77A885A1D7834D0009485BF /* test1.json */; };
+		F7877DD71D6D61FE001AF783 /* RSA.m in Sources */ = {isa = PBXBuildFile; fileRef = F7877DD61D6D61FE001AF783 /* RSA.m */; };
+		F7997C1E1D7EBFDB000C14BA /* sampleTest.json in Resources */ = {isa = PBXBuildFile; fileRef = F7997C1D1D7EBFDB000C14BA /* sampleTest.json */; };
+		F79C22281D6AD19400A13730 /* FBEncryptorAES.m in Sources */ = {isa = PBXBuildFile; fileRef = F79C22251D6AD19400A13730 /* FBEncryptorAES.m */; };
+		F79F857D1D6C679D00ED3F8F /* Security.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F79F857C1D6C679D00ED3F8F /* Security.framework */; };
+		F79F85801D6C68EB00ED3F8F /* NSData+Base64.m in Sources */ = {isa = PBXBuildFile; fileRef = F79F857F1D6C68EB00ED3F8F /* NSData+Base64.m */; };
+		F7C665D01D76AEC3004525A5 /* private.key in Resources */ = {isa = PBXBuildFile; fileRef = F7C665CE1D76AEC3004525A5 /* private.key */; };
+		F7C665D11D76AEC3004525A5 /* public.key in Resources */ = {isa = PBXBuildFile; fileRef = F7C665CF1D76AEC3004525A5 /* public.key */; };
+		F7C667DC1D76FD3D004525A5 /* test.json in Resources */ = {isa = PBXBuildFile; fileRef = F7C667DB1D76FD3D004525A5 /* test.json */; };
+		F7E871011D74459600270AC9 /* q_737595.zip in Resources */ = {isa = PBXBuildFile; fileRef = F7E871001D74459600270AC9 /* q_737595.zip */; };
+		F7E871051D746C7000270AC9 /* q_737595 in Resources */ = {isa = PBXBuildFile; fileRef = F7E871041D746C7000270AC9 /* q_737595 */; };
+		F7EECF1F1D7FEE6100FBA71B /* params.json in Resources */ = {isa = PBXBuildFile; fileRef = F7EECF1E1D7FEE6100FBA71B /* params.json */; };
+		F7FCFB491D79AE0D00C0555A /* AESCrypt.m in Sources */ = {isa = PBXBuildFile; fileRef = F7FCFB421D79AE0D00C0555A /* AESCrypt.m */; };
+		F7FCFB4A1D79AE0D00C0555A /* NSData+Base64.m in Sources */ = {isa = PBXBuildFile; fileRef = F7FCFB441D79AE0D00C0555A /* NSData+Base64.m */; };
+		F7FCFB4B1D79AE0D00C0555A /* NSData+CommonCrypto.m in Sources */ = {isa = PBXBuildFile; fileRef = F7FCFB461D79AE0D00C0555A /* NSData+CommonCrypto.m */; };
+		F7FCFB4C1D79AE0D00C0555A /* NSString+Base64.m in Sources */ = {isa = PBXBuildFile; fileRef = F7FCFB481D79AE0D00C0555A /* NSString+Base64.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		7705B4AA165E78EC0048AFE5 /* AESCryptography.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = AESCryptography.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		7705B4AE165E78EC0048AFE5 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		7705B4B0165E78EC0048AFE5 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		7705B4B2165E78EC0048AFE5 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		7705B4B6165E78EC0048AFE5 /* AESCryptography-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "AESCryptography-Info.plist"; sourceTree = "<group>"; };
+		7705B4B8165E78EC0048AFE5 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		7705B4BA165E78EC0048AFE5 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		7705B4BC165E78EC0048AFE5 /* AESCryptography-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "AESCryptography-Prefix.pch"; sourceTree = "<group>"; };
+		7705B4BD165E78EC0048AFE5 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		7705B4BE165E78EC0048AFE5 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		7705B4C0165E78EC0048AFE5 /* Default.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Default.png; sourceTree = "<group>"; };
+		7705B4C2165E78EC0048AFE5 /* Default@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default@2x.png"; sourceTree = "<group>"; };
+		7705B4C4165E78EC0048AFE5 /* Default-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-568h@2x.png"; sourceTree = "<group>"; };
+		7705B4C6165E78EC0048AFE5 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		7705B4C7165E78EC0048AFE5 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		7705B4CA165E78EC0048AFE5 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/ViewController.xib; sourceTree = "<group>"; };
+		F71AE8371D77FB2F00C9E670 /* resources1 */ = {isa = PBXFileReference; lastKnownFileType = folder; path = resources1; sourceTree = "<group>"; };
+		F749A34C1D70771B00165932 /* ZipArchive.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZipArchive.h; sourceTree = "<group>"; };
+		F749A34D1D70771B00165932 /* ZipArchive.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; path = ZipArchive.mm; sourceTree = "<group>"; };
+		F749A3501D70774400165932 /* crypt.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = crypt.h; sourceTree = "<group>"; };
+		F749A3511D70774400165932 /* ioapi.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = ioapi.c; sourceTree = "<group>"; };
+		F749A3521D70774400165932 /* ioapi.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ioapi.h; sourceTree = "<group>"; };
+		F749A3531D70774400165932 /* mztools.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = mztools.c; sourceTree = "<group>"; };
+		F749A3541D70774400165932 /* mztools.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = mztools.h; sourceTree = "<group>"; };
+		F749A3551D70774400165932 /* unzip.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = unzip.c; sourceTree = "<group>"; };
+		F749A3561D70774400165932 /* unzip.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = unzip.h; sourceTree = "<group>"; };
+		F749A3571D70774400165932 /* zip.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = zip.c; sourceTree = "<group>"; };
+		F749A3581D70774400165932 /* zip.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = zip.h; sourceTree = "<group>"; };
+		F749A35F1D707A3C00165932 /* libz.1.1.3.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = libz.1.1.3.tbd; path = usr/lib/libz.1.1.3.tbd; sourceTree = SDKROOT; };
+		F749A3611D707A4800165932 /* libz.1.2.5.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = libz.1.2.5.tbd; path = usr/lib/libz.1.2.5.tbd; sourceTree = SDKROOT; };
+		F76C9BFB1D8141F5004AB6A6 /* libSBJson4.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = libSBJson4.a; path = "Pods/../build/Debug-iphoneos/SBJson4/libSBJson4.a"; sourceTree = "<group>"; };
+		F76C9C571D81816A004AB6A6 /* webController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = webController.h; path = ../webController.h; sourceTree = "<group>"; };
+		F76C9C581D81816A004AB6A6 /* webController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = webController.m; path = ../webController.m; sourceTree = "<group>"; };
+		F76C9C591D81816A004AB6A6 /* webController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; name = webController.xib; path = ../webController.xib; sourceTree = "<group>"; };
+		F77A88581D783233009485BF /* q_737552 */ = {isa = PBXFileReference; lastKnownFileType = folder; path = q_737552; sourceTree = "<group>"; };
+		F77A885A1D7834D0009485BF /* test1.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = test1.json; sourceTree = "<group>"; };
+		F7877DD51D6D61FE001AF783 /* RSA.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RSA.h; sourceTree = "<group>"; };
+		F7877DD61D6D61FE001AF783 /* RSA.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RSA.m; sourceTree = "<group>"; };
+		F7997C1D1D7EBFDB000C14BA /* sampleTest.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = sampleTest.json; sourceTree = "<group>"; };
+		F79C22241D6AD19400A13730 /* FBEncryptorAES.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FBEncryptorAES.h; sourceTree = "<group>"; };
+		F79C22251D6AD19400A13730 /* FBEncryptorAES.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FBEncryptorAES.m; sourceTree = "<group>"; };
+		F79F857C1D6C679D00ED3F8F /* Security.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Security.framework; path = System/Library/Frameworks/Security.framework; sourceTree = SDKROOT; };
+		F79F857E1D6C68EB00ED3F8F /* NSData+Base64.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSData+Base64.h"; sourceTree = "<group>"; };
+		F79F857F1D6C68EB00ED3F8F /* NSData+Base64.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSData+Base64.m"; sourceTree = "<group>"; };
+		F7C665CE1D76AEC3004525A5 /* private.key */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = private.key; sourceTree = "<group>"; };
+		F7C665CF1D76AEC3004525A5 /* public.key */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = public.key; sourceTree = "<group>"; };
+		F7C667DB1D76FD3D004525A5 /* test.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = test.json; sourceTree = "<group>"; };
+		F7E871001D74459600270AC9 /* q_737595.zip */ = {isa = PBXFileReference; lastKnownFileType = archive.zip; path = q_737595.zip; sourceTree = "<group>"; };
+		F7E871041D746C7000270AC9 /* q_737595 */ = {isa = PBXFileReference; lastKnownFileType = folder; path = q_737595; sourceTree = "<group>"; };
+		F7EECF1E1D7FEE6100FBA71B /* params.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = params.json; sourceTree = "<group>"; };
+		F7FCFB411D79AE0D00C0555A /* AESCrypt.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AESCrypt.h; sourceTree = "<group>"; };
+		F7FCFB421D79AE0D00C0555A /* AESCrypt.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AESCrypt.m; sourceTree = "<group>"; };
+		F7FCFB431D79AE0D00C0555A /* NSData+Base64.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSData+Base64.h"; sourceTree = "<group>"; };
+		F7FCFB441D79AE0D00C0555A /* NSData+Base64.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSData+Base64.m"; sourceTree = "<group>"; };
+		F7FCFB451D79AE0D00C0555A /* NSData+CommonCrypto.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSData+CommonCrypto.h"; sourceTree = "<group>"; };
+		F7FCFB461D79AE0D00C0555A /* NSData+CommonCrypto.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSData+CommonCrypto.m"; sourceTree = "<group>"; };
+		F7FCFB471D79AE0D00C0555A /* NSString+Base64.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSString+Base64.h"; sourceTree = "<group>"; };
+		F7FCFB481D79AE0D00C0555A /* NSString+Base64.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSString+Base64.m"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		7705B4A7165E78EC0048AFE5 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F749A3621D707A4800165932 /* libz.1.2.5.tbd in Frameworks */,
+				F749A3601D707A3D00165932 /* libz.1.1.3.tbd in Frameworks */,
+				F79F857D1D6C679D00ED3F8F /* Security.framework in Frameworks */,
+				7705B4AF165E78EC0048AFE5 /* UIKit.framework in Frameworks */,
+				7705B4B1165E78EC0048AFE5 /* Foundation.framework in Frameworks */,
+				7705B4B3165E78EC0048AFE5 /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		7705B49F165E78EC0048AFE5 = {
+			isa = PBXGroup;
+			children = (
+				F71AE8371D77FB2F00C9E670 /* resources1 */,
+				F7E871001D74459600270AC9 /* q_737595.zip */,
+				F77A88581D783233009485BF /* q_737552 */,
+				F7E871041D746C7000270AC9 /* q_737595 */,
+				7705B4B4165E78EC0048AFE5 /* AESCryptography */,
+				7705B4AD165E78EC0048AFE5 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		7705B4AB165E78EC0048AFE5 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				7705B4AA165E78EC0048AFE5 /* AESCryptography.app */,
+			);
+			name = Products;
+			path = ..;
+			sourceTree = "<group>";
+		};
+		7705B4AD165E78EC0048AFE5 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				F76C9BFB1D8141F5004AB6A6 /* libSBJson4.a */,
+				F749A3611D707A4800165932 /* libz.1.2.5.tbd */,
+				F749A35F1D707A3C00165932 /* libz.1.1.3.tbd */,
+				F79F857C1D6C679D00ED3F8F /* Security.framework */,
+				7705B4AE165E78EC0048AFE5 /* UIKit.framework */,
+				7705B4B0165E78EC0048AFE5 /* Foundation.framework */,
+				7705B4B2165E78EC0048AFE5 /* CoreGraphics.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		7705B4B4165E78EC0048AFE5 /* AESCryptography */ = {
+			isa = PBXGroup;
+			children = (
+				F7FCFB401D79ADEE00C0555A /* AESCrypt-ObjC-master */,
+				F7EECF1E1D7FEE6100FBA71B /* params.json */,
+				F7C667DB1D76FD3D004525A5 /* test.json */,
+				F77A885A1D7834D0009485BF /* test1.json */,
+				F7997C1D1D7EBFDB000C14BA /* sampleTest.json */,
+				F749A34C1D70771B00165932 /* ZipArchive.h */,
+				F749A34D1D70771B00165932 /* ZipArchive.mm */,
+				F749A34F1D70774400165932 /* minizip */,
+				7705B4D1165E79210048AFE5 /* Helpers */,
+				7705B4BD165E78EC0048AFE5 /* AppDelegate.h */,
+				7705B4BE165E78EC0048AFE5 /* AppDelegate.m */,
+				7705B4AB165E78EC0048AFE5 /* Products */,
+				7705B4C6165E78EC0048AFE5 /* ViewController.h */,
+				7705B4C7165E78EC0048AFE5 /* ViewController.m */,
+				7705B4C9165E78EC0048AFE5 /* ViewController.xib */,
+				F76C9C571D81816A004AB6A6 /* webController.h */,
+				F76C9C581D81816A004AB6A6 /* webController.m */,
+				F76C9C591D81816A004AB6A6 /* webController.xib */,
+				7705B4B5165E78EC0048AFE5 /* Supporting Files */,
+			);
+			path = AESCryptography;
+			sourceTree = "<group>";
+		};
+		7705B4B5165E78EC0048AFE5 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				7705B4B6165E78EC0048AFE5 /* AESCryptography-Info.plist */,
+				7705B4B7165E78EC0048AFE5 /* InfoPlist.strings */,
+				7705B4BA165E78EC0048AFE5 /* main.m */,
+				7705B4BC165E78EC0048AFE5 /* AESCryptography-Prefix.pch */,
+				7705B4C0165E78EC0048AFE5 /* Default.png */,
+				7705B4C2165E78EC0048AFE5 /* Default@2x.png */,
+				7705B4C4165E78EC0048AFE5 /* Default-568h@2x.png */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		7705B4D1165E79210048AFE5 /* Helpers */ = {
+			isa = PBXGroup;
+			children = (
+				F7C665CD1D76AEBB004525A5 /* keys */,
+				F7877DD41D6D61F4001AF783 /* RSA */,
+				F79C22231D6AD18B00A13730 /* working */,
+			);
+			path = Helpers;
+			sourceTree = "<group>";
+		};
+		F749A34F1D70774400165932 /* minizip */ = {
+			isa = PBXGroup;
+			children = (
+				F749A3501D70774400165932 /* crypt.h */,
+				F749A3511D70774400165932 /* ioapi.c */,
+				F749A3521D70774400165932 /* ioapi.h */,
+				F749A3531D70774400165932 /* mztools.c */,
+				F749A3541D70774400165932 /* mztools.h */,
+				F749A3551D70774400165932 /* unzip.c */,
+				F749A3561D70774400165932 /* unzip.h */,
+				F749A3571D70774400165932 /* zip.c */,
+				F749A3581D70774400165932 /* zip.h */,
+			);
+			path = minizip;
+			sourceTree = "<group>";
+		};
+		F7877DD41D6D61F4001AF783 /* RSA */ = {
+			isa = PBXGroup;
+			children = (
+				F7877DD51D6D61FE001AF783 /* RSA.h */,
+				F7877DD61D6D61FE001AF783 /* RSA.m */,
+			);
+			name = RSA;
+			sourceTree = "<group>";
+		};
+		F79C22231D6AD18B00A13730 /* working */ = {
+			isa = PBXGroup;
+			children = (
+				F79C22241D6AD19400A13730 /* FBEncryptorAES.h */,
+				F79C22251D6AD19400A13730 /* FBEncryptorAES.m */,
+				F79F857E1D6C68EB00ED3F8F /* NSData+Base64.h */,
+				F79F857F1D6C68EB00ED3F8F /* NSData+Base64.m */,
+			);
+			name = working;
+			sourceTree = "<group>";
+		};
+		F7C665CD1D76AEBB004525A5 /* keys */ = {
+			isa = PBXGroup;
+			children = (
+				F7C665CE1D76AEC3004525A5 /* private.key */,
+				F7C665CF1D76AEC3004525A5 /* public.key */,
+			);
+			name = keys;
+			sourceTree = "<group>";
+		};
+		F7FCFB401D79ADEE00C0555A /* AESCrypt-ObjC-master */ = {
+			isa = PBXGroup;
+			children = (
+				F7FCFB411D79AE0D00C0555A /* AESCrypt.h */,
+				F7FCFB421D79AE0D00C0555A /* AESCrypt.m */,
+				F7FCFB431D79AE0D00C0555A /* NSData+Base64.h */,
+				F7FCFB441D79AE0D00C0555A /* NSData+Base64.m */,
+				F7FCFB451D79AE0D00C0555A /* NSData+CommonCrypto.h */,
+				F7FCFB461D79AE0D00C0555A /* NSData+CommonCrypto.m */,
+				F7FCFB471D79AE0D00C0555A /* NSString+Base64.h */,
+				F7FCFB481D79AE0D00C0555A /* NSString+Base64.m */,
+			);
+			name = "AESCrypt-ObjC-master";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		7705B4A9165E78EC0048AFE5 /* AESCryptography */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 7705B4CE165E78EC0048AFE5 /* Build configuration list for PBXNativeTarget "AESCryptography" */;
+			buildPhases = (
+				7705B4A6165E78EC0048AFE5 /* Sources */,
+				7705B4A7165E78EC0048AFE5 /* Frameworks */,
+				7705B4A8165E78EC0048AFE5 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = AESCryptography;
+			productName = AESCryptography;
+			productReference = 7705B4AA165E78EC0048AFE5 /* AESCryptography.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		7705B4A1165E78EC0048AFE5 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0450;
+				ORGANIZATIONNAME = "Extentia Information Technology";
+				TargetAttributes = {
+					7705B4A9165E78EC0048AFE5 = {
+						DevelopmentTeam = QXY5EAJ7WD;
+					};
+				};
+			};
+			buildConfigurationList = 7705B4A4165E78EC0048AFE5 /* Build configuration list for PBXProject "AESCryptography" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 7705B49F165E78EC0048AFE5;
+			productRefGroup = 7705B4AB165E78EC0048AFE5 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				7705B4A9165E78EC0048AFE5 /* AESCryptography */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		7705B4A8165E78EC0048AFE5 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F7E871011D74459600270AC9 /* q_737595.zip in Resources */,
+				F7C665D01D76AEC3004525A5 /* private.key in Resources */,
+				7705B4B9165E78EC0048AFE5 /* InfoPlist.strings in Resources */,
+				F71AE8381D77FB2F00C9E670 /* resources1 in Resources */,
+				F76C9C5B1D81816A004AB6A6 /* webController.xib in Resources */,
+				F7EECF1F1D7FEE6100FBA71B /* params.json in Resources */,
+				7705B4C1165E78EC0048AFE5 /* Default.png in Resources */,
+				F7C665D11D76AEC3004525A5 /* public.key in Resources */,
+				F77A885B1D7834D0009485BF /* test1.json in Resources */,
+				F7997C1E1D7EBFDB000C14BA /* sampleTest.json in Resources */,
+				7705B4C3165E78EC0048AFE5 /* Default@2x.png in Resources */,
+				F7E871051D746C7000270AC9 /* q_737595 in Resources */,
+				F7C667DC1D76FD3D004525A5 /* test.json in Resources */,
+				F77A88591D783233009485BF /* q_737552 in Resources */,
+				7705B4C5165E78EC0048AFE5 /* Default-568h@2x.png in Resources */,
+				7705B4CB165E78EC0048AFE5 /* ViewController.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		7705B4A6165E78EC0048AFE5 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F749A35C1D70774400165932 /* zip.c in Sources */,
+				7705B4BB165E78EC0048AFE5 /* main.m in Sources */,
+				7705B4BF165E78EC0048AFE5 /* AppDelegate.m in Sources */,
+				F749A35A1D70774400165932 /* mztools.c in Sources */,
+				F7FCFB491D79AE0D00C0555A /* AESCrypt.m in Sources */,
+				F749A3591D70774400165932 /* ioapi.c in Sources */,
+				F7FCFB4B1D79AE0D00C0555A /* NSData+CommonCrypto.m in Sources */,
+				F749A34E1D70771B00165932 /* ZipArchive.mm in Sources */,
+				7705B4C8165E78EC0048AFE5 /* ViewController.m in Sources */,
+				F7FCFB4C1D79AE0D00C0555A /* NSString+Base64.m in Sources */,
+				F749A35B1D70774400165932 /* unzip.c in Sources */,
+				F79F85801D6C68EB00ED3F8F /* NSData+Base64.m in Sources */,
+				F76C9C5A1D81816A004AB6A6 /* webController.m in Sources */,
+				F79C22281D6AD19400A13730 /* FBEncryptorAES.m in Sources */,
+				F7FCFB4A1D79AE0D00C0555A /* NSData+Base64.m in Sources */,
+				F7877DD71D6D61FE001AF783 /* RSA.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		7705B4B7165E78EC0048AFE5 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				7705B4B8165E78EC0048AFE5 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		7705B4C9165E78EC0048AFE5 /* ViewController.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				7705B4CA165E78EC0048AFE5 /* en */,
+			);
+			name = ViewController.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		7705B4CC165E78EC0048AFE5 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		7705B4CD165E78EC0048AFE5 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		7705B4CF165E78EC0048AFE5 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "AESCryptography/AESCryptography-Prefix.pch";
+				INFOPLIST_FILE = "AESCryptography/AESCryptography-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				LIBRARY_SEARCH_PATHS = "$(inherited)";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		7705B4D0165E78EC0048AFE5 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "AESCryptography/AESCryptography-Prefix.pch";
+				INFOPLIST_FILE = "AESCryptography/AESCryptography-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				LIBRARY_SEARCH_PATHS = "$(inherited)";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		7705B4A4165E78EC0048AFE5 /* Build configuration list for PBXProject "AESCryptography" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7705B4CC165E78EC0048AFE5 /* Debug */,
+				7705B4CD165E78EC0048AFE5 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		7705B4CE165E78EC0048AFE5 /* Build configuration list for PBXNativeTarget "AESCryptography" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7705B4CF165E78EC0048AFE5 /* Debug */,
+				7705B4D0165E78EC0048AFE5 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 7705B4A1165E78EC0048AFE5 /* Project object */;
+}

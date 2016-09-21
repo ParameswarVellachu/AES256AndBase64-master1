@@ -1,0 +1,27 @@
+{
+    "lookup": [{
+               "file": {
+               "@type": "html",
+               "mainfile": "q_737552\/6e828446e9e1468f128a34a89a0ee63e.html",
+               "resfile": "q_737552\/resources\/864436\/*"
+               }
+               }, {
+               "file": {
+               "@type": "html",
+               "mainfile": "q_737552\/9d941bf71d33a0eec4da1c226e082dcb.html",
+               "resfile": "q_737552\/resources\/864437\/*"
+               }
+               }, {
+               "file": {
+               "@type": "html",
+               "mainfile": "q_737552\/7849df67452d930b3cff5061ba1d3777.html",
+               "resfile": "q_737552\/resources\/864438\/*"
+               }
+               }, {
+               "file": {
+               "@type": "html",
+               "mainfile": "q_737552\/3358cb71930ae8b44b179e2de8d70bd9.html",
+               "resfile": "q_737552\/resources\/*"
+               }
+               }]
+}

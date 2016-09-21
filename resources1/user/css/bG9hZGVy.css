@@ -1,0 +1,199 @@
+/*****************************************************/
+/* Project Name	:	www.m-tutor.com					*/
+/* Powered by	:	Symbiotic Info Pvt Ltd			*/
+/* Created by	:	Murugan.P						*/
+/* Created Date	:	10 March 2016						*/
+/*****************************************************/
+
+#slider-info {padding:20px; margin:22px auto 0; font-family: 'Exo 2', sans-serif; -webkit-font-smoothing: antialiased;}
+
+.topic{padding-top:10%; }
+.topic1{padding-top:10%;}
+.topic-info{ color:#fff;font-size:1.5em;line-height:1.5em;text-align:center;}
+.topic-info span{color:#7bf;}
+.topic-info span a{color:#7bf;text-decoration:none;}
+.topic-info span a:hover{text-decoration:underline;}
+.topic-feedback{background:#7091fe;color:#000; padding:0px 25px 5px 25px;    line-height: 32px;text-align:center;font-size:1.5em;display:inline-block;border-radius:8px;}
+
+.topic-feedback:before{
+	content: "\f0d7";
+	font-family: 'FontAwesome';	
+	position: relative;
+	top:26px;
+	font-size:1.5em;
+	left:48%;
+	color:#7091fe;
+	z-index:155550;
+	
+	}
+	
+.thanks{color:#fff;font-size:2.5em;line-height:1.5em;text-align:center;}
+.rating{text-align:center; margin:0px 0px;}
+/*.btn{border-radius:0px;min-width:120px;} */
+.topic-confirm
+{ text-align:center; padding-top:15px;}
+.topic-confirm .btn{border-radius:0px;width:150px !important;}
+.topic-confirm .btn-default { background-color: #fff; border-color: #ccc; color: #333; }
+.btn-skip{border-radius:0px;min-width:150px; 
+    background-image: none;
+    border: 1px solid transparent;
+    cursor: pointer;
+    display: inline-block;
+    font-weight: normal;
+    line-height: 1.42857;
+    margin-bottom: 0;
+    padding: 6px 12px;
+    text-align: center;
+    vertical-align: middle;
+    white-space: nowrap;}
+img {max-width: 100%;height: auto;}
+
+input::-moz-focus-inner {border: 0;}
+a:hover, a:active, a:focus {outline: 0;}
+ol, ul {list-style: none;}
+hr{margin-top:10px;}
+
+
+/*Loader*/
+@keyframes load{
+0%{height:10px;
+    margin:20px 2px;}
+  50%{height:50px;
+    margin:0px 2px;}
+  100%{height:10px;margin:20px 2px;}
+}
+@-o-keyframes load{
+0%{height:10px;
+    margin:20px 2px;}
+  50%{height:50px;
+    margin:0px 2px;}
+  100%{height:10px;margin:20px 2px;}
+}
+@-ms-keyframes load{
+0%{height:10px;
+    margin:20px 2px;}
+  50%{height:50px;
+    margin:0px 2px;}
+  100%{height:10px;margin:20px 2px;}
+}
+@-moz-keyframes load{
+0%{height:10px;
+    margin:20px 2px;}
+  50%{height:50px;
+    margin:0px 2px;}
+  100%{height:10px;margin:20px 2px;}
+}
+@-webkit-keyframes load{
+0%{height:10px;
+    margin:20px 2px;}
+  50%{height:50px;
+    margin:0px 2px;}
+  100%{height:10px;margin:20px 2px;}
+}
+#loader{
+width:85px;
+  height:55px;
+margin:50px auto 0px auto;
+}
+.bar{
+float:left;
+margin:0px 2px;
+width:10px;
+height:50px;
+background:#7bf;
+border-top:3px solid #7af;
+border-bottom:3px solid #7af;
+/*border-radius*/
+-webkit-border-radius:10px;
+   -moz-border-radius:10px;
+        border-radius:10px;
+}
+.bar:nth-child(1){
+/*animation*/
+-webkit-animation:load 1s linear infinite;
+   -moz-animation:load 1s linear infinite;
+    -ms-animation:load 1s linear infinite;
+     -o-animation:load 1s linear infinite;
+        animation:load 1s linear infinite;
+}
+.bar:nth-child(2){
+/*animation*/
+-webkit-animation:load 1s linear infinite;
+   -moz-animation:load 1s linear infinite;
+    -ms-animation:load 1s linear infinite;
+     -o-animation:load 1s linear infinite;
+        animation:load 1s linear infinite;
+/*animation-delay*/
+-webkit-animation-delay:.2s;
+   -moz-animation-delay:.2s;
+    -ms-animation-delay:.2s;
+     -o-animation-delay:.2s;
+        animation-delay:.2s;
+}
+.bar:nth-child(3){
+/*animation*/
+-webkit-animation:load 1s linear infinite;
+   -moz-animation:load 1s linear infinite;
+    -ms-animation:load 1s linear infinite;
+     -o-animation:load 1s linear infinite;
+        animation:load 1s linear infinite;
+/*animation-delay*/
+-webkit-animation-delay:.4s;
+   -moz-animation-delay:.4s;
+    -ms-animation-delay:.4s;
+     -o-animation-delay:.4s;
+        animation-delay:.4s;
+}
+.bar:nth-child(4){
+/*animation*/
+-webkit-animation:load 1s linear infinite;
+   -moz-animation:load 1s linear infinite;
+    -ms-animation:load 1s linear infinite;
+     -o-animation:load 1s linear infinite;
+        animation:load 1s linear infinite;
+/*animation-delay*/
+-webkit-animation-delay:.6s;
+   -moz-animation-delay:.6s;
+    -ms-animation-delay:.6s;
+     -o-animation-delay:.6s;
+        animation-delay:.6s;
+}
+.bar:nth-child(5){
+/*animation*/
+-webkit-animation:load 1s linear infinite;
+   -moz-animation:load 1s linear infinite;
+    -ms-animation:load 1s linear infinite;
+     -o-animation:load 1s linear infinite;
+        animation:load 1s linear infinite;
+/*animation-delay*/
+-webkit-animation-delay:.8s;
+   -moz-animation-delay:.8s;
+    -ms-animation-delay:.8s;
+     -o-animation-delay:.8s;
+        animation-delay:.8s;
+}
+.bar:nth-child(6){
+/*animation*/
+-webkit-animation:load 1s linear infinite;
+   -moz-animation:load 1s linear infinite;
+    -ms-animation:load 1s linear infinite;
+     -o-animation:load 1s linear infinite;
+        animation:load 1s linear infinite;
+/*animation-delay*/
+-webkit-animation-delay:1s;
+   -moz-animation-delay:1s;
+    -ms-animation-delay:1s;
+     -o-animation-delay:1s;
+        animation-delay:1s;
+}
+
+/* Media Query */
+
+@media (max-width: 768px) {
+	.user-panel .dropdown-menu{left:-150px !important;}
+	}
+
+.loader-text{text-align:center;color:#fff;font-size:90%;opacity:.5;}
+
+
+
