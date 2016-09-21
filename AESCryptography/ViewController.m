@@ -95,7 +95,7 @@
 }
 - (void)viewDidLoad
 {
-    [super viewDidLoad];//git hub tested by params
+    [super viewDidLoad];//git hub tested by params Wednesday, 21-September-2016
    
     // Get Today Date
     [self getTodayDate];
